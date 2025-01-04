@@ -1,0 +1,55 @@
+body {
+  background: rgb(255, 249, 217);
+  justify-items: center;
+  flex-wrap: wrap;
+}
+
+.headerMainContainer {
+  background: rgb(255, 249, 217);
+  display: flex;
+  border: solid black 2px;
+  height: 5vh;
+  width: 100%;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+    .goShopLogo {
+      border: solid black 2px;
+      height: 4vh;
+      width: 10%;
+      background-image: url('./images/GoShop-Background.png');
+      background-size: cover;
+      background-position: center;
+      flex-wrap: wrap;
+     
+    }
+
+    .locationService {
+      border: solid black 2px;
+      height: 4vh;
+      width: 15%;
+      font-size: 1.5vw;
+    }
+
+    .searchBar {
+      border: solid black 2px;
+      height: 4vh;
+      width: 55%;
+      font-size: 1.5vw;
+    }
+
+    .languageSelector {
+      border: solid black 2px;
+      height: 4vh;
+      width: 7%;
+      font-size: 1.5vw;
+    }
+
+    .userAccount {
+      border: solid black 2px;
+      height: 4vh;
+      width: 10%;
+      font-size: 1.5vw;
+    }
